@@ -1,1 +1,2 @@
-Hello
+yarn build
+yarn start
