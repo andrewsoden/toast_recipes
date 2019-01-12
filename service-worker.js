@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/toast_recipes/precache-manifest.951cf2826fc3204d236e61628d3bb4f2.js"
+  "/toast_recipes/precache-manifest.d67ba3d5708e2eea70524c82cb5b6a28.js"
 );
 
 workbox.clientsClaim();
