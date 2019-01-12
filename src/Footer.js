@@ -7,6 +7,7 @@ class Footer extends Component {
 
     return (
       <div>
+        <hr />
         <p>Toast Recipes &copy; Andrew Soden {currentYear}</p>
         <p>A simple mess around website just for writing automation tests against :)</p>
       </div>

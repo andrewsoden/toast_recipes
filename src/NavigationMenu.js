@@ -5,6 +5,7 @@ class NavigationMenu extends Component {
     return (
       <div>
         <p>NavigationMenu</p>
+        <hr />
       </div>
     );
   }
