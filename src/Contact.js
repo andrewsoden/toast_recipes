@@ -152,6 +152,34 @@ class Contact extends Component {
             <div className="error" id="rePasswordError" />
           </div>
 
+          <div className="form-group">
+            <label id="contactMethodLabel">Preferred Contact Method:</label><br />
+              <input type="radio" name="preferredContact" value="either" checked />Either
+              <input type="radio" name="preferredContact" value="email" />Email
+              <input type="radio" name="preferredContact" value="mobile" />Phone
+          </div>
+
+          <div className="form-group">
+            <label id="howHearAboutUsLabel">How Did You Hear About Us?:</label><br />
+              <select name="howHeardAboutUs">
+                <option value="socialMedia">Social Media</option>
+                <option value="online">Online</option>
+                <option value="friendsOrFamily">Friends/family</option>
+                <option value="other">Other</option>
+              </select>
+          </div>
+
+          <div className="form-group">
+            <label id="feedbackLabel">Comments:</label><br />
+              <textarea
+                name="comments"
+                rows="10"
+                cols="30"
+                placeholder="Anything you wish to let us know?"
+              >
+              </textarea>
+            </div>
+
           <button className="btn btn-primary"
             onClick={this.handleSubmit}>Submit
           </button>
