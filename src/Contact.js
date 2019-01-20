@@ -14,6 +14,7 @@ class Contact extends Component {
     };
 
     this.handleChange = this.handleChange.bind(this);
+    this.handleChangeNoValidity = this.handleChangeNoValidity.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
@@ -27,10 +28,24 @@ class Contact extends Component {
     this.showInputError(event.target.name);
   }
 
+  handleChangeNoValidity(event) {
+    this.setState({
+      [event.target.name]: event.target.value
+    });
+  }
+
   handleSubmit(event) {
     alert('Form submitted');
     event.preventDefault();
-    this.setState({firstName: ''});
+    this.setState({
+      firstName: '',
+      surname: '',
+      email: '',
+      password: '',
+      rePassword: '',
+      contactNumber: '',
+      comment: ''
+    });
   }
 
   showFormErrors() {
@@ -62,7 +77,7 @@ class Contact extends Component {
     if (!validity.valid) {
       if (validity.valueMissing) {
         error.textContent = `${label} is a required field`; 
-      }  else if ((isFirstName || isSurname) && validity.patternMismatch) {
+      } else if ((isFirstName || isSurname) && validity.patternMismatch) {
         error.textContent = `${label} should be longer than 1 character`;
       } else if (validity.typeMismatch) {
         error.textContent = `${label} should be a valid email address`;
@@ -170,12 +185,14 @@ class Contact extends Component {
           </div>
 
           <div className="form-group">
-            <label id="feedbackLabel">Comments:</label><br />
+            <label id="commentLabel">Comments:</label><br />
               <textarea
-                name="comments"
-                rows="10"
-                cols="30"
+                name="comment"
+                rows="20"
+                cols="60"
                 placeholder="Anything you wish to let us know?"
+                value={this.state.comment}
+                onChange={this.handleChangeNoValidity}
               >
               </textarea>
             </div>
