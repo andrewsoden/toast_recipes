@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import NavigationMenu from './NavigationMenu.js';
-import Contact from './Contact.js';
 import Footer from './Footer';
 
 
@@ -11,7 +10,6 @@ class App extends Component {
       <div>
         <Header />
         <NavigationMenu />
-        <Contact />
         <Footer />
       </div>
     );
