@@ -9,14 +9,14 @@ import Information from "./Information";
 import Contact from "./Contact";
 import Login from "./Login";
 
+import './css/Navigation.css';
+
 class NavigationMenu extends Component {
   render() {
     return (
       <HashRouter>
       <div>
-        <p>NavigationMenu</p>
-        <hr />
-          <ul className="header">
+          <ul className="navigation">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/information">Information</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
