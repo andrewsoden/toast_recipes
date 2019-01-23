@@ -96,6 +96,7 @@ class Contact extends Component {
       <div>
         <h1>Contact</h1>
         <form novalidate>
+
           <div className="form-group">
             <label id="firstNameLabel">First Name</label>
             <input className="form-control"
@@ -200,7 +201,7 @@ class Contact extends Component {
           <button className="btn btn-primary"
             onClick={this.handleSubmit}>Submit
           </button>
-      </form>
+        </form>
       </div>
     );
   }
