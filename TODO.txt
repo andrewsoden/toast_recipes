@@ -1,0 +1,13 @@
+To Do List (in no particular order):
+
+- Create and work on branches
+- Fix contact page validation
+- Jest snapshot tests - once UI stabilised
+- responsive UI
+- Cypress automation tests
+- Selenium automation tests
+- Cucumber bdd tests
+- Load tests via Jmeter
+- Page that can only be accessed via authentication
+- Update readme.md
+- Setup teamcity and auto tests if possible

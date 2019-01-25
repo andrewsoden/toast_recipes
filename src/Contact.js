@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import ScrollArea from 'react-scrollbar';
+
 class Contact extends Component {
   constructor(props) {
     super(props);
@@ -96,6 +98,7 @@ class Contact extends Component {
       <div>
         <h1>Contact</h1>
         <form novalidate>
+        <ScrollArea>
 
           <div className="form-group">
             <label id="firstNameLabel">First Name</label>
@@ -201,6 +204,9 @@ class Contact extends Component {
           <button className="btn btn-primary"
             onClick={this.handleSubmit}>Submit
           </button>
+          <br />
+          <br />
+          </ScrollArea>
         </form>
       </div>
     );
