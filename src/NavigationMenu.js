@@ -17,10 +17,10 @@ class NavigationMenu extends Component {
       <HashRouter>
       <div>
           <ul className="navigation">
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/information">Information</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
-            <li><NavLink to="/login">Login</NavLink></li>
+            <li><NavLink to="/" id="section_home">Home</NavLink></li>
+            <li><NavLink to="/information" id="section_information">Information</NavLink></li>
+            <li><NavLink to="/contact" id="section_contact">Contact</NavLink></li>
+            <li><NavLink to="/login" id="section_login">Login</NavLink></li>
           </ul>
         <div className="content">
           <Route exact path="/" component={Home}/>
