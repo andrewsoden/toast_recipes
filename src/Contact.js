@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './css/Common.css';
 
 import ScrollArea from 'react-scrollbar';
 
@@ -95,11 +96,10 @@ class Contact extends Component {
   
   render() {
     return (
-      <div>
-        <h1>Contact</h1>
+      <div className="page">
+        <h2>Contact</h2>
         <form noValidate>
         <ScrollArea>
-
           <div className="form-group">
             <label id="firstNameLabel">First Name</label>
             <input className="form-control"
@@ -173,7 +173,7 @@ class Contact extends Component {
 
           <div className="form-group">
             <label id="contactMethodLabel">Preferred Contact Method:</label><br />
-              <input id="contactEither" type="radio" name="preferredContact" value="either" checked />Either
+              <input id="contactEither" type="radio" name="preferredContact" value="either" defaultChecked />Either
               <input id="contactEmail" type="radio" name="preferredContact" value="email" />Email
               <input id="contactMobile" type="radio" name="preferredContact" value="mobile" />Phone
           </div>
