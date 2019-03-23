@@ -12,7 +12,7 @@
     color: #FFF;
     font-weight: bold;
     text-decoration: none;
-    padding: 5%;
+    padding: 20px;
     display: inline-block;
   }
   .content {
@@ -24,5 +24,5 @@
     margin: 0;
   }
   .content li {
-    margin-bottom: 5%;
+    margin-bottom: 10px;
   }
