@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/toast_recipes/static/js/runtime~main.b59eabbf.js"
   },
   {
-    "revision": "8250f63ed7ad6d0c0691",
-    "url": "/toast_recipes/static/js/main.8250f63e.chunk.js"
+    "revision": "b62c41717d04fde4af3a",
+    "url": "/toast_recipes/static/js/main.b62c4171.chunk.js"
   },
   {
     "revision": "aa7b55692e089db99ce1",
     "url": "/toast_recipes/static/js/1.aa7b5569.chunk.js"
   },
   {
-    "revision": "8250f63ed7ad6d0c0691",
-    "url": "/toast_recipes/static/css/main.f4987fd7.chunk.css"
+    "revision": "b62c41717d04fde4af3a",
+    "url": "/toast_recipes/static/css/main.e699c0cd.chunk.css"
   },
   {
-    "revision": "83fbca1158afd52c5d26a79e538fb0ba",
+    "revision": "5cbf2324923f7ff93263ddbd078da29b",
     "url": "/toast_recipes/index.html"
   }
 ];

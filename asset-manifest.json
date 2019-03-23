@@ -1,13 +1,13 @@
 {
-  "main.css": "/toast_recipes/static/css/main.f4987fd7.chunk.css",
-  "main.js": "/toast_recipes/static/js/main.8250f63e.chunk.js",
-  "main.js.map": "/toast_recipes/static/js/main.8250f63e.chunk.js.map",
+  "main.css": "/toast_recipes/static/css/main.e699c0cd.chunk.css",
+  "main.js": "/toast_recipes/static/js/main.b62c4171.chunk.js",
+  "main.js.map": "/toast_recipes/static/js/main.b62c4171.chunk.js.map",
   "static/js/1.aa7b5569.chunk.js": "/toast_recipes/static/js/1.aa7b5569.chunk.js",
   "static/js/1.aa7b5569.chunk.js.map": "/toast_recipes/static/js/1.aa7b5569.chunk.js.map",
   "runtime~main.js": "/toast_recipes/static/js/runtime~main.b59eabbf.js",
   "runtime~main.js.map": "/toast_recipes/static/js/runtime~main.b59eabbf.js.map",
-  "static/css/main.f4987fd7.chunk.css.map": "/toast_recipes/static/css/main.f4987fd7.chunk.css.map",
+  "static/css/main.e699c0cd.chunk.css.map": "/toast_recipes/static/css/main.e699c0cd.chunk.css.map",
   "index.html": "/toast_recipes/index.html",
-  "precache-manifest.f229d97ef8830600c50fafb8ffbdc838.js": "/toast_recipes/precache-manifest.f229d97ef8830600c50fafb8ffbdc838.js",
+  "precache-manifest.fb4cf98c07956ea7eb9121e48c3bbab1.js": "/toast_recipes/precache-manifest.fb4cf98c07956ea7eb9121e48c3bbab1.js",
   "service-worker.js": "/toast_recipes/service-worker.js"
 }
