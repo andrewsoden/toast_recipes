@@ -2,3 +2,10 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.basicTable {
+    width: 100%;
+}
+td {
+    border: 1px solid black;
+  }
